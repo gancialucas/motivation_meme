@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+
+.container {
+    /* la caja toma el tamaño del X% de la pantalla */
+    width: 50%;
+    /* 
+        la diferencia que queda si la divido por la 
+        mitad tendre las dos partes iguales. Por lo que 
+        si la caja mide 30% me quedan 70% de la pantalla
+        y para centrarlo coloco 35% en cada lado.
+    */
+    margin-left: 25%;
+    margin-top: 50px;
+    
+    font-family: "Libre Baskerville", serif;
+    
+    text-align: center;
+    color: white;
+}
+
+.motivation-img {
+    border: 5px solid white;
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+}
